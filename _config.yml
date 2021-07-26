@@ -21,10 +21,10 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
-url: 'https://mydomain.com'
+url: 'https://snowdayclub.github.io'
 baseurl: ''
-title: 'My website'
-description: 'This is my new website'
+title: 'Snowday Club'
+description: 'Snowday Club'
 permalink: pretty
 logo: "/assets/logos/logo@32px.png"
 
@@ -36,15 +36,20 @@ paginate_path: blog/page:num
 navigation_header:
 - title: Home
   url: /
-- title: About
-  url: /about/
 - title: Blog
   url: /blog/
+- title: Categories
+  url: /categories/
+- title: About
+  url: /about/
 
 # Footer nav
 navigation_footer:
 - title: Based on Alembic theme
   url: "https://github.com/daviddarnes/alembic"
+
+social_links:
+  GitHub: https://github.com/snowdayclub
 
 # Collections
 collections:
